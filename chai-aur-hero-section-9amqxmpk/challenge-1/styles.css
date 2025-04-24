@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: white;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  /*by default direction is ROW*/
+  
+  
+
+}
+
+.announcement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #281E39;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.announcement-link {
+  /*  */
+  display: inline-flex;
+  align-items: center;
+  color: #cfcfcf;
+  font-size: 0.875rem;
+  gap: 6px;
+  text-decoration: none; 
+}
+
+.announcement-link:hover {
+}
+
+.announcement-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.announcement-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(234, 231, 240);
+  font-weight: bolder;
+}
+
+.hero-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 1rem;
+  }
+
+  .announcement-link {
+    font-size: 0.75rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+}
