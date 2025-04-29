@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --primary-blue: #3b82f6;
   --primary-blue-dark: #2563eb;
@@ -14,13 +20,28 @@
 body {
 }
 
+.dark-mode-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
 .hero {
+  display: flex;
 }
 
 .hero-grid {
+  display: flex;
 }
 
-.content-col h1 {
+.content-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+  font-size: 40px;
 }
 
 .content-col p {
